@@ -215,6 +215,13 @@ body{
     background-size:cover !important;
 }
 
+#site_img {
+    width:180px;
+    height:180px;
+    border-radius:5px;
+    background-size:cover !important;
+}
+
 #profile div {
     font-weight:bold;
     margin:1.5vh 0px;
@@ -381,6 +388,12 @@ body{
         padding-left:5vw;
     }
     #profile_img {
+        width:120px;
+        height:120px;
+        margin:0px auto !important;
+    }
+
+    #site_img {
         width:120px;
         height:120px;
         margin:0px auto !important;
