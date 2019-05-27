@@ -1,117 +1,196 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vanessa~Roux FreeDev</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="script.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="img/iconfinder_web-code.png" type="image/png">
-    <base target="_blank">
-</head>
-<body>
-    <!-- Chargement -->
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <!-- PROFIL -->
-    <div id="profile">
-        <div id="username"><span style="display:block;">Vanessa~Roux</span></div>
-        <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/38477047?v=4) center;"></div>
-        <div id="userbio" style="display;">Développeuse Web</div>
-        <h3>Freelance</h3>
-        <div id="about">
-            <span style="display"><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp; 0627288187</span>
-            <span style="display"><i class="fas fa-envelope"></i><a class="u-email" href="mailto:vanessa.roux891@orange.fr">&nbsp; Contactez moi</a></span>
-            <span style="display"><i class="fas fa-link"></i> &nbsp; https://vanoux.github.io/</span>
-            <span style="display"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Saint Gaudens - Occitanie</span>
-            <!-- <span style="display"><i class="fab fa-github-alt"></i><a href="https://github.com/Vanoux">&nbsp; Profil Github</a></span>
-            <span style="display"><i class="fab fa-twitter"></i><a href="https://twitter.com/VanessaRouxx">&nbsp; @VanessaRouxx</a></span> -->
-        </div>
-    </div>
-    <!-- INFORMATIONS -->
-    <div id="display">
-        <div id="work">
-            <h1>Portfolio</h1>
-            <div class="projects" id="work_section">
-                <!-- Site Sophro Stage -->
-                <a href="https://www.sophrologue-labat.fr/" title="Aller voir le site Sophrologue-Labat">
-                <section>
-                    <div class="section_title">Sophrologue-Labat</div>
-                    <div class="about_section">
-                    <span style="display">Site réalisé lors d'un stage de 2 mois dans l'agence digitale Native Web</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Symfony - HTML - Twig - MySql - Doctrine - Javascript - Bootstrap</span>
-                        <!-- <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                        <span><i class="fas fa-code-branch"></i>&nbsp; 0</span> -->
-                    </div>
-                    <div id="site_img" style="background: url(img/img_0159.png) center;">
-                    </div>
-                </section>
-                </a>
-                <!-- Coop'Café MDA -->
-                <a href="https://coopcafe.herokuapp.com/" title="Aller voir le site Coop'Café">
-                <section>
-                    <div class="section_title">Coop'Café</div>
-                    <div class="about_section">
-                    <span style="display:block;">Site web d'un réseaux social d'entraide pour le Répar'Café de la Maison de l'Avenir de St Gaudens réalisé lors d'un projet pédagogique</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML - NodeJs - Express - Bootstrap</span>
-                        <!-- <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                        <span><i class="fas fa-code-branch"></i>&nbsp; 1</span> -->
-                    </div>
-                    <div id="site_img" style="background: url(img/LogoBackground.png) center;">
-                    </div>
-                </section>
-                </a>
-                <!-- TFC Supporters -->
-                <a href="https://tfcsupporters.herokuapp.com/" title="Aller voir le site TFC Supporters">
-                <section>
-                    <div class="section_title">TFC_supporters</div>
-                    <div class="about_section">
-                    <span style="display;">Site réalisé lors d'un projet pédagogique pour les supporters du Toulouse Football Club</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP Laravel - MySql - Bootstrap</span>
-                    </div>
-                    <div id="site_img" style="background: url(img/600px-Logo_Toulouse_FC.svg.png) center;">
-                    </div>
-                </section>
-                </a>
-                <!-- ST-Go Jeux de Piste -->
-                <a href="https://otstgo.herokuapp.com/" title="Aller voir le site StGo Jeux de Pistes">
-                <section>
-                    <div class="section_title">JeuxDePisteOT</div>
-                    <div class="about_section">
-                    <span style="display:block;">Prototype web mobile d'un Jeux de Pistes pour l'Office du Tourisme de St Gaudens réalisé lors d'un projet pédagogique</span>
-                    </div>
-                    <div class="bottom_section">
-                        <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML - NodeJs - Express - Materialize</span>
-                    </div>
-                    <div id="site_img" style="background: url(img/5c.png) center;">
-                    </div>
-                </section>
-                </a>
-            </div>
-        </div>
-        <!-- Sections -->
-        <div id="blog_section" style="display:none;">
-            <h1>Blog</h1>
-            <div id="blogs"></div>
-        </div>
-        <!-- Footer -->
-        <div id="footer">
-            <a>Vanessa~Roux | Développeuse Web</a><br>
-            <span style="display"><i class="fab fa-github-alt"></i><a href="https://github.com/Vanoux" title="Aller sur mon profil Github">&nbsp;Profil Github</a></span><br>
-            <span style="display"><i class="fab fa-twitter"></i><a href="https://twitter.com/VanessaRouxx" title="Suivez moi sur Twitter">&nbsp;@VanessaRouxx</a></span>
-        </div>
-    </div>
-    
-</body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Vanessa~Roux FreeDev</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<link rel="icon" href="images/iconfinder_web-code.png" type="image/png">
+		<!-- <base target="_blank"> -->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+	<!-- Wrapper -->
+	<div class="wrapper style1">
+
+		<!-- Header -->
+		<div id="header" class="skel-panels-fixed">
+			<div id="logo">
+				<h1><a href="index.html">Vanessa~Roux</a></h1>
+				<span class="tag"> FreeDev</span>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li class="active"><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#skill">Compétences</a></li>
+					<li><a href="#about">A Propos</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Banner -->
+		<div id="banner" class="container">
+			<section>
+				<p>Vanessa Roux<br><strong>Développeuse Web Freelance</strong></p> 
+					<p>Consultez mon profil sur <a href="https://github.com/Vanoux" target="_blank">Github</a> et sur <a href="https://www.linkedin.com/in/vanessa-roux-54017595/" target="_blank">LinkedIn</a><br> ou Suivez moi sur <a href="https://twitter.com/VanessaRouxx" target="_blank">Twitter</a>.</p>
+				<a href="#about" class="button small">En savoir plus</a>
+			</section>
+		</div>
+
+		<!-- Portfolio -->
+		<div class="container">
+				<section>
+					<header class="titleSection">
+						<h2 id="portfolio">Portfolio</h2>
+					</header>
+				</section>
+		</div>
+			
+		<div id="extra">
+			<div class="container">
+				<div class="row no-collapse-1">
+					<!-- Site Sophro NW -->
+					<section class="4u">
+						<a href="https://www.sophrologue-labat.fr/" title="Site Web Sophrologue-Labat" target="_blank" class="image featured">
+							<img src="images/labat.png" alt="Accueil site web Sophrologie Labat">
+						</a>
+						<div class="box">
+						<span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; Symfony - HTML - Twig - MySql - ORM Doctrine - Javascript - Bootstrap</span>
+						<hr/>
+							<p>Réalisation d'un site dynamique pour une Sophrologue. Gestion du projet et Développement web effectué lors d'un stage de 2 mois dans l'agence digitale Native Web</p>
+							<a href="https://www.sophrologue-labat.fr/" title="Aller sur le Site Web Sophrologue-Labat" target="_blank" class="button">Aller sur le site</a>
+						</div>
+					</section>
+					<!--  Coop'Café MDA -->
+					<section class="4u">
+						<a href="https://coopcafe.herokuapp.com/" title="Site Web Coop'Café" target="_blank" class="image featured">
+							<img src="images/CoopCafe.png" alt="Accueil site web Coop'Café MDA">
+						</a>
+						<div class="box">
+						<span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; HTML - NodeJs - Express - Ejs - MySql - Bootstrap</span>
+						<hr/>
+							<p>Site web d'un réseaux social d'entraide pour le Répar'Café de la Maison de l'Avenir de Saint Gaudens réalisé lors d'un projet pédagogique pendant la Formation en Développement web</p>
+							<a href="https://coopcafe.herokuapp.com/" title="Aller voir le site Coop'Café" target="_blank" class="button">Aller sur le site</a>
+						</div>
+					</section>
+					<!-- TFC Supporters -->
+					<section class="4u">
+							<a href="https://tfcsupporters.herokuapp.com/" title="Site Web TFC Supporters" target="_blank" class="image featured">
+								<img src="images/TFC.png" alt="Accueil site web TFC Supporters">
+							</a>
+							<div class="box">
+							<span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; PHP Laravel - Blade - ORM Eloquent - MySql - Bootstrap</span>
+							<hr/>
+								<p>Site web & Application mobile prototype réalisé lors d'un projet pédagogique pour les supporters du Toulouse Football Club dans le cadre de la Formation en Développement web</p>
+								<a href="https://tfcsupporters.herokuapp.com/" title="Aller voir le site Saint-GO" target="_blank" class="button">Aller sur le site</a>
+							</div>
+						</section>
+				</div>
+				<div class="row no-collapse-1">
+					<!-- ST-Go Jeux de Piste -->
+					<section class="4u">
+							<a href="https://otstgo.herokuapp.com/" title="Site Web Saint-GO Jeux de piste" target="_blank" class="image featured">
+								<img src="images/StGo.png" alt="Accueil site web Saint-Go Jeux de piste">
+							</a>
+							<div class="box">
+							<span style="display:inline-block;"><i class="fa fa-code"></i>&nbsp; HTML - NodeJs - Express - Ejs - MySql - Materialize</span>
+							<hr/>
+								<p>Prototype web mobile d'un Jeux de Pistes pour l'Office du Tourisme de Saint Gaudens réalisé lors d'un projet pédagogique pendant la Formation en Développement web</p>
+								<a href="https://otstgo.herokuapp.com/" title="Aller voir le site Saint-GO" target="_blank" class="button">Aller sur le site</a>
+							</div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" style="margin-top: 80px;">
+			<section>
+				<header class="titleSection">
+					<h2 id="skill">Compétences</h2>
+				</header>
+			</section>
+		</div>
+		<!-- Skill -->
+		<div id="main">
+			<div class="container">
+				<div class="row"> 
+					<!-- Content -->
+					<div class="6u">
+						<section>
+							<ul class="style">
+								<li class="fa fa-lightbulb-o">
+									<h3>Gestion de projet</h3>
+									<span>Recueil des besoins & Cahier des charges / Maquettes.<br>Kanban Trello & Taïga<br>Pokrex & Diagramme de gantt<br>Méthode Agile "Scrum"<br>Outils Google & Framasoft<br>Pratiques qualités web Opquast</span>
+								</li>
+								<li class="fa fa-laptop">
+									<h3>Intégration</h3>
+									<span>CMS Wordpress<br>CMS Jimdo<br></span>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="6u">
+						<section>
+							<ul class="style">
+								<li class="fa fa-code">
+									<h3>Développement Web</h3>
+									<span><u>FRONT-END :</u><br> HTML - CSS - Javascript - Markdown<br>Librairies Js - Moteurs de templates Twig / Blade / Ejs / Jekyll<br><u>BACK-END :</u><br>PHP Symfony / Laravel<br>NodeJs - API Google</span>
+								</li>
+								<li class="fa fa-cogs">
+									<h3>Base de Données</h3>
+									<span>Sql MySql<br>ORM Doctrine<br></span>
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- A propos -->
+		<div id="page" class="container">
+			<section>
+				<header class="major">
+					<h2 id="about">A propos</h2>
+					<span class="byline">Qui suis-je ?</span>
+				</header>
+				<p>Issue de formation agricole et après 10 ans dans l’univers de la production végétale et le tourisme rural, j’ai choisi de me reconvertir dans l’univers passionnant du numérique.<br>J'ai donc intégré une formation en développement web & mobile pendant 11 mois au sein de l’ERN Simplon de Saint Gaudens Occitanie, où j'y ai obtenu mon titre professionnel d'équivalence bac+2.<br>Dans le cadre de la 
+				pédagogie active de l’École Régionale du Numérique et des mises en situation avec divers projets pédagogiques sur toute l'année, ainsi qu'un stage pratique de 2 mois, j'ai pu ainsi acquérir de l'expérience en programmation web et dans la gestion de projet. </p>
+				<p><strong>Mon but : </strong>Contribuer au développement de projets digitaux aux niveau local et régional. Ainsi que de participer à l’inclusion du numérique pour les territoires ruraux et défavorisés.</p>
+				<h3>Vous avez une question, un projet ? N'hésitez pas à me contacter !</h3><br>
+					<h4>Coordonnées :</h4>
+					<i class="fa fa-mobile"> 0627288187</i><br>
+					<i class="fa fa-map-marker"> Saint Gaudens - Occitanie</i><br>
+					<i class="fa fa-envelope"></i><a href="mailto:vanessa.roux891@orange.fr"> Cliquez ici pour m'envoyer un e-mail</a>				
+			</section>
+		</div>
+		<!-- /A propos -->
+	</div>
+
+	<!-- Footer -->
+	<div id="copyright">
+		<div class="container">
+			<div class="copyright">
+				<p><a href="#">Vanessa~Roux FreeDev</a><br><i class="fa fa-mobile"> 0627288187</i></p>
+				<ul class="icons">
+					<li><a href="https://github.com/Vanoux" target="_blank" class="fa fa-github-alt"><span>Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/vanessa-roux-54017595/" target="_blank" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+					<li><a href="https://twitter.com/VanessaRouxx" target="_blank" class="fa fa-twitter"><span>Twitter</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	</body>
 </html>
