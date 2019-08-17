@@ -98,7 +98,7 @@ section .heading h2 {
     color: #fff;
     border: 1px solid white;
     margin-top: 20px;
-    padding: 18px 50px;
+    padding: 9px 25px;
     border-radius: 3px;
     display: inline-block;
     transition: all 0.5s ease-in 0s;
@@ -110,6 +110,7 @@ section .heading h2 {
 }
 .icons {
     color: #000;
+    margin-right: 15px;
     transition: all 0.5s ease-in 0s;
 }
 .icons:hover {
