@@ -63,6 +63,10 @@ section .heading h2 {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
 }
+.fa.fa-navicon {
+    color: #ddd;
+    text-shadow: 1px 1px 1px #000;
+}
 .navbar .navbar-collapse {
     text-align: center;
 }
@@ -113,12 +117,13 @@ section .heading h2 {
 }
 .icons {
     color: #000;
+    text-shadow: 1px 1px 1px #fff;
     margin-right: 15px;
     transition: all 0.5s ease-in 0s;
 }
 .icons:hover {
-    background: #ddd;
-    color: #333;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
     text-decoration: none;
 }
 
